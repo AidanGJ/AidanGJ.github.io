@@ -1,0 +1,105 @@
+.linkContainer {
+    display: flex;
+    border-top: 2px solid #9400D3;
+    border-bottom: 1px solid #E8E8E8;
+    border-left: 1px solid #E8E8E8;
+    border-right: 1px solid #E8E8E8;
+    background-color: #F5F5F5;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .link {
+    font-size: 15px;
+    padding-left: 70px;
+  }
+  
+  a:hover, .selected, .contactInfo {
+    color: #9400D3;
+  }
+  
+  a {
+    color: #A9A9A9;
+    text-decoration: none;
+  }
+  
+  .pageContainer{
+    display: flex;
+    width: 100%;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  img.portrait {
+    border: 3px solid #9400D3;
+    border-radius: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .title {
+    color: #484848;
+    padding-bottom: 20px
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-self: center;
+  }
+  
+  .skills {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-self: center;
+    padding: 7px;
+  }
+  
+  .education, .experience, .interests {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-self: center;
+  }
+  
+  .interests > div {
+    font-size: 18px;
+    padding-bottom: 15px
+  }
+  
+  .line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+  }
+  
+  .subLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 15px;
+  }
+  
+  .media {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    font-size: 12px;
+  }
